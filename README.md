@@ -4,8 +4,7 @@
 ## SETUP
 ### DGX Setup
 
-``
-
+```
 nvidia-docker run -itd --name sudhir_docker -v /raid/home/sudhir:/workspace/sudhir nvcr.io/nvidia/pytorch:21.06-py3
 docker exec -it sudhir_docker /bin/bash
 
